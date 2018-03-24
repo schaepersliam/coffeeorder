@@ -1,0 +1,73 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/home"
+            app:border_color="#FFFFFF"
+            app:border_width="3dp" />
+
+        <TextView
+            style="@style/HeadTextView"
+            android:layout_below="@id/profile_image"
+            android:id="@+id/head"
+            android:text="@string/tab3_head"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/head">
+
+            <EditText
+                style="@style/EditTextID"
+                android:id="@+id/name"
+                android:hint="@string/first_name" />
+
+            <EditText
+                style="@style/EditTextID"
+                android:id="@+id/Last_name"
+                android:hint="@string/last_name" />
+
+            <EditText
+                style="@style/EditTextID"
+                android:id="@+id/street"
+                android:hint="@string/street" />
+
+            <EditText
+                style="@style/EditTextID"
+                android:id="@+id/housenumber"
+                android:hint="@string/house_number"
+                android:inputType="number"/>
+
+            <EditText
+                style="@style/EditTextID"
+                android:id="@+id/birth"
+                android:hint="@string/birth"
+                android:inputType="date"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/next_button"
+                android:text="@string/next_button"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

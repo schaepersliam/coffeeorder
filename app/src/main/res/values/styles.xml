@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF3D00</item>
+        <item name="colorPrimaryDark">#DD2C00</item>
+        <item name="colorAccent">#0D47A1</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    
+    <style name="HeadTextView">
+        <item name="android:textSize">35sp</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditTextID">
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CoffeeOrder</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="birth">Geburtsdatum</string>
+    <string name="chocolate">Schokolade</string>
+    <string name="first_name">Vorname</string>
+    <string name="house_number">Hausnummer</string>
+    <string name="last_name">Nachname</string>
+    <string name="next_button">Weiter</string>
+    <string name="street">Straße</string>
+    <string name="tab1_head">Anzahl</string>
+    <string name="tab2_head">Garnierungen</string>
+    <string name="tab3_head">Diene ID</string>
+    <string name="tab4_head">Zusammenfassung</string>
+    <string name="whipped_cream">Aufgeschlagene Milch</string>
+    <string name="tab4_address">Adresse:</string>
+    <string name="tab4_name">Name:</string>
+    <string name="quantity">Anzahl:</string>
+    <string name="order">Bestellen</string>
+    <string name="no">Nein</string>
+    <string name="yes">Ja</string>
+    <string name="order_message">Deine Bestellung ist nun auf dem Weg zu dir!</string>
+    <string name="tab_quantity">ANZAHL</string>
+    <string name="tab_summary">ZUSAMMENFASSUNG</string>
+    <string name="tab_toppings">GARNIERUNGEN</string>
+</resources>

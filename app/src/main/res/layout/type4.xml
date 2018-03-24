@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/postman"
+        app:border_color="#FFFFFF"
+        app:border_width="3dp" />
+
+    <TextView
+        style="@style/HeadTextView"
+        android:text="@string/tab4_head"
+        android:id="@+id/header"
+        android:layout_below="@id/profile_image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Name: "
+            android:id="@+id/a_name"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Adresse: "
+            android:id="@+id/a_adresse"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Geburtstag: "
+            android:id="@+id/a_geburtstag"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="18dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Geburtstag: "
+            android:id="@+id/a_quantity"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Geburtstag: "
+            android:id="@+id/a_whipped_cream"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Geburtstag: "
+            android:id="@+id/a_chocolate"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="18dp"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Geburtstag: "
+            android:id="@+id/a_price"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/order_button"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/order"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"/>
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

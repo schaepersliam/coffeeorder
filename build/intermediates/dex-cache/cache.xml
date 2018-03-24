@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\db8e2b3ac625133e2e110a89c30adfcc1efefa51\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_46be3d3f87977d91ac31abb410518015414ae2c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\295a27afa8687401a6679b1ce1219a1c8eaf5cc5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_902e69f0359aca8cefb3d7752ae7d6207897713a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\2735740c387ab10b5f43b959c0a3fca0fba2e24d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_1189f071bbab166aa1dbc3f65818463d567280b2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_99d190b7a40b1d2b2057bb660f948abcd6f14923\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\5f44228240d9893a0add75f5b7ef675b051e52bd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_670cc0acdfb4b3dde5d4d8f87f555876697da0bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\4a0c2208f6c2c9a0540703260df60eaa8a4ba327\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_d53c674cdde749c99bf9e64cad6e9e94729a6c01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\dce817de61f5edef76bd7e871fac921d8ece5a7a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_18aa531c64aaa7428755e20c53b8cb1108d44314.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\ea06c9472b8555a1cd14a122e7b16f18e39bbd6c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_371d728fb4f334d5919a7737e2f3dd9d0130b22a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\5b82b75df29dcf78a0c18f0ec354f41aa7c0bd5a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_c16c782fd51e55577d679a7400f805965aeb7999.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\67d9a4fdf15da89a5b7724b21c684f695fe5c46b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_11182dede018171b1c229f3eed118f6c71527662.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ed8d356ffb0854f56af8a19ecafb9c7bd696c16f">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8134b91d134f1f166064aec7ad0930378cfe4f22\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\21d895ab37b156fc928444b8a1765867f397013c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_ba6d63b6ca6cebbd6ce63df54d409ee94d1647f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_443b4eb8bfc6fb10ad877523e746d09b41365553.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\b5c737535d6e787c711314d1876d11406157338f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_ff1ab26c705ca217fdb0d1fa44d55d927ebd5572.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\c288dbf0a99fb3a76325ba3947c87e7e9989df93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_159e2fb56d46916cd78d9c2e8bad19872718d53d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\liam2\.android\build-cache\20238fd9d021ff0766cfd2d1e09e6413d320afc6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\liam2\AndroidStudioProjects\CoffeeOrder\app\build\intermediates\pre-dexed\debug\classes_9f03153a4433f58b814ea2b4761e3fc621530266.jar" />
+    </item>
+
+</items>

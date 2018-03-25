@@ -19,3 +19,7 @@ Check this [Udacity course](https://de.udacity.com/course/android-basics-user-in
 
 ### You don't understand something in the code?
 Feel free to contact me at any time via [Email](mailto:schaepersliam@gmail.com).
+
+### Submit your changes
+If you are interested in magnifying this project please make a new pull request.
+I will definitively look after all of them! :)

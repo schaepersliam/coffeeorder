@@ -29,6 +29,7 @@ public class Tab1 extends  Fragment{
         Button minus = rootView.findViewById(R.id.minus_button);
         Button next = rootView.findViewById(R.id.next_tab1);
         final TextView text = rootView.findViewById(R.id.count);
+        text.setText(VarHelper.getQuantity() + "");
         plus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

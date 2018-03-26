@@ -103,11 +103,11 @@
             android:textSize="20sp"/>
 
         <Button
+            android:background="@drawable/next_button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/order_button"
             android:textColor="#FFFFFF"
-            android:background="@color/colorPrimaryDark"
             android:text="@string/order"
             android:layout_gravity="center"
             android:layout_marginTop="18dp"/>

@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#DD2C00</color>
     <color name="colorAccent">#0D47A1</color>
     <color name="colorMissing">#000000</color>
+    <color name="colorMinusButton">#00C853</color>
 </resources>

@@ -23,4 +23,7 @@
     <string name="tab_quantity">QUANTITY</string>
     <string name="tab_toppings">TOPPINGS</string>
     <string name="tab_summary">SUMMARY</string>
+    <string name="tab_ordered_head">Your order is on the way</string>
+    <string name="tab_ordered_text">Your order is now on the way and will be delivered as soon as possible!</string>
+    <string name="tab_continue">Continue</string>
 </resources>

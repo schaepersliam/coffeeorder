@@ -1,5 +1,6 @@
 package com.example.android.coffeeorder;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -25,19 +26,29 @@ public class Tab4 extends android.support.v4.app.Fragment {
         viewPager = (FCViewPager)getActivity().findViewById(R.id.container);
 
         final TextView name = (TextView)rootView.findViewById(R.id.a_name);
-        final TextView adresse = (TextView)rootView.findViewById(R.id.a_adresse);
+        final TextView address = (TextView)rootView.findViewById(R.id.a_adresse);
         final TextView birth = (TextView)rootView.findViewById(R.id.a_geburtstag);
         final TextView quantity = (TextView)rootView.findViewById(R.id.a_quantity);
         final TextView whipped_cream = (TextView)rootView.findViewById(R.id.a_whipped_cream);
         final TextView chocolate = (TextView)rootView.findViewById(R.id.a_chocolate);
         final Button order = rootView.findViewById(R.id.order_button);
 
+        order.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                VarHelper.resetItems();
+                Intent open = new Intent(getActivity(), OrderedActivity.class);
+                startActivity(open);
+                viewPager.setCurrentItem(0);
+            }
+        });
+
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 if (position == 3) {
                     name.setText(getResources().getString(R.string.tab4_name) + " " + VarHelper.getFirstName() + " " + VarHelper.getName());
-                    adresse.setText(getResources().getString(R.string.tab4_address) + " " + VarHelper.getStreet() + " " + VarHelper.getHouseNumber());
+                    address.setText(getResources().getString(R.string.tab4_address) + " " + VarHelper.getStreet() + " " + VarHelper.getHouseNumber());
                     birth.setText(getResources().getString(R.string.birth) + " " + VarHelper.getBirth());
                     quantity.setText(getResources().getString(R.string.quantity) + " " + VarHelper.getQuantity());
                     if (VarHelper.getChocolate() == true) {
@@ -57,16 +68,6 @@ public class Tab4 extends android.support.v4.app.Fragment {
             @Override
             public void onPageScrollStateChanged(int state) {
 
-            }
-        });
-
-        order.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast toast = Toast.makeText(getActivity(), getResources().getString(R.string.order_message), Toast.LENGTH_SHORT);
-                toast.show();
-                VarHelper.resetItems();
-                viewPager.setCurrentItem(0);
             }
         });
 

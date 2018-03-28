@@ -23,15 +23,15 @@ public class Tab2 extends android.support.v4.app.Fragment{
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(type2, container, false);
 
-        viewPager = (FCViewPager)getActivity().findViewById(R.id.container);
+        viewPager = getActivity().findViewById(R.id.container);
 
-        final CheckBox topping_1 = (CheckBox)rootView.findViewById(R.id.topping_whippedcream);
-        final CheckBox topping_2 = (CheckBox)rootView.findViewById(R.id.topping_chocolate);
+        final CheckBox topping_1 = rootView.findViewById(R.id.topping_whippedcream);
+        final CheckBox topping_2 = rootView.findViewById(R.id.topping_chocolate);
         final Button next = rootView.findViewById(R.id.next_tab2);
         topping_1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (topping_1.isChecked() == true) {
+                if (topping_1.isChecked()) {
                     VarHelper.setWhippedCream(true);
                     VarHelper.setPrice(VarHelper.getPrice() + 1.50);
                 } else {
@@ -43,7 +43,7 @@ public class Tab2 extends android.support.v4.app.Fragment{
         topping_2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if (topping_2.isChecked() == true) {
+                if (topping_2.isChecked()) {
                     VarHelper.setChocolate(true);
                     VarHelper.setPrice(VarHelper.getPrice() + 1.50);
                 } else {

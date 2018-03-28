@@ -11,9 +11,9 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
-    private SectionsPagerAdapter mSectionsPagerAdapter;
+    SectionsPagerAdapter mSectionsPagerAdapter;
 
-    private FCViewPager mViewPager;
+    FCViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
-        mViewPager = (FCViewPager) findViewById(R.id.container);
+        mViewPager = findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        TabLayout tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
     }
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-        public SectionsPagerAdapter(FragmentManager fm) {
+        SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
 
@@ -70,17 +70,13 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    Tab1 tab1 = new Tab1();
-                    return tab1;
+                    return new Tab1();
                 case 1:
-                    Tab2 tab2 = new Tab2();
-                    return tab2;
+                    return new Tab2();
                 case 2:
-                    Tab3 tab3 = new Tab3();
-                    return tab3;
+                    return new Tab3();
                 case 3:
-                    Tab4 tab4 = new Tab4();
-                    return tab4;
+                    return new Tab4();
                 default:
                     return null;
             }
